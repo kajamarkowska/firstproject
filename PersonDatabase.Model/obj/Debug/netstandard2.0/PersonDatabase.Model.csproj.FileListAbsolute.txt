@@ -1,0 +1,9 @@
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model\bin\Debug\netstandard2.0\PersonDatabase.Model.deps.json
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model\bin\Debug\netstandard2.0\PersonDatabase.Model.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model\bin\Debug\netstandard2.0\PersonDatabase.Model.pdb
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model\obj\Debug\netstandard2.0\PersonDatabase.Model.csprojAssemblyReference.cache
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model\obj\Debug\netstandard2.0\PersonDatabase.Model.csproj.CoreCompileInputs.cache
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model\obj\Debug\netstandard2.0\PersonDatabase.Model.AssemblyInfoInputs.cache
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model\obj\Debug\netstandard2.0\PersonDatabase.Model.AssemblyInfo.cs
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model\obj\Debug\netstandard2.0\PersonDatabase.Model.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model\obj\Debug\netstandard2.0\PersonDatabase.Model.pdb

@@ -1,0 +1,10 @@
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.ConsoleApplication\bin\Debug\PersonDatabase.ConsoleApplication.exe.config
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.ConsoleApplication\bin\Debug\PersonDatabase.ConsoleApplication.exe
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.ConsoleApplication\bin\Debug\PersonDatabase.ConsoleApplication.pdb
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.ConsoleApplication\bin\Debug\PersonDatabase.Model.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.ConsoleApplication\bin\Debug\PersonDatabase.Model.pdb
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.ConsoleApplication\obj\Debug\PersonDatabase.ConsoleApplication.csprojAssemblyReference.cache
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.ConsoleApplication\obj\Debug\PersonDatabase.ConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.ConsoleApplication\obj\Debug\PersonDatabase.ConsoleApplication.csproj.CopyComplete
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.ConsoleApplication\obj\Debug\PersonDatabase.ConsoleApplication.exe
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.ConsoleApplication\obj\Debug\PersonDatabase.ConsoleApplication.pdb
