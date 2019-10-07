@@ -127,27 +127,70 @@ namespace ConsoleApp22
                 int index;
                 index = int.Parse(Console.ReadLine());
 
+            if (index >= 0 && index < persons.Count)
+
+            {
+                Person person = persons.GetAt(index);
+
+                Console.WriteLine(person);
                 Console.WriteLine("Podaj nowe imie:");
-                string name;
-                name = Console.ReadLine();
+                
+                person.FirstName = Console.ReadLine();
 
                 Console.WriteLine("Podaj nowe nazwisko:");
-                string surname;
-                surname = Console.ReadLine();
+                
+                person.LastName = Console.ReadLine();
 
 
                 Console.WriteLine("Podaj nowy wiek:");
-                int age;
-                age = int.Parse(Console.ReadLine());
+                
+                person.Age = int.Parse(Console.ReadLine());
 
+            }
 
+            else
+
+            {
+                Console.WriteLine("Nie ma takiego indexu");
+
+            }
             
         }
 
         // TO ZROBIMY NA ZAJĘCIACH
         private static void DeletePersonMenuItem(PersonCollection persons)
         {
-            Console.WriteLine("DeletePersonMenuItem() => NIE ZAIMPLEMENTOWANO!");
+            Console.WriteLine("Podaj index osoby ktora chcesz usunac:");
+            int index;
+            index = int.Parse(Console.ReadLine());
+
+            if( index >=0 && index<persons.Count)
+
+            {
+                Person person = persons.GetAt(index);
+                Console.WriteLine($"Czy na pewno chcesz usunac osobe:{person} (t/n)?");
+                if (Console.ReadLine() == "t")
+                {
+
+                    persons.Delete(index);
+
+                    Console.WriteLine("Uzytkownik zostal prawidlowo usuniety");
+                }
+
+
+
+            }
+
+            else
+
+            {
+                Console.WriteLine("Nie ma takiego indexu");
+
+            }
+
+
+
+
         }
 
         // TODO: zaimplementuj tę metodę tak, żeby wyświetliła wszystkie osoby w kartotece (tj.

@@ -4,11 +4,11 @@
     public class Person
     {
         // imię 
-        public string FirstName { get; }
+        public string FirstName { get; set; }
         // nazwisko
-        public string LastName { get; }
+        public string LastName { get; set; }
         // wiek
-        public int Age { get; }
+        public int Age { get; set; }
 
         // konstruktor klasy Person
         public Person(string firstName, string lastName, int age)

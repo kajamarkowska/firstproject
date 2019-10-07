@@ -47,6 +47,17 @@ namespace PersonDatabase.Model
 
         }
 
+        public void Delete(int index)
+        {
+            persons.RemoveAt(index);
+        }
+        public void Delete(Person person)
+        {
+            persons.Remove(person);
+
+        }
+
+
         // metoda pozwalająca dodać osobę do kolekcji
         public void Add(Person person)
         {
