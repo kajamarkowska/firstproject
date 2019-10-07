@@ -1,5 +1,6 @@
 ﻿using PersonDatabase.Model;
 using System;
+using System.IO;
 
 namespace ConsoleApp22
 {
@@ -121,7 +122,26 @@ namespace ConsoleApp22
         // TO ZROBIMY NA ZAJĘCIACH
         private static void EditPersonMenuItem(PersonCollection persons)
         {
-            Console.WriteLine("EditPersonMenuItem() => NIE ZAIMPLEMENTOWANO!");
+
+                Console.WriteLine("Podaj index osoby, ktora chcesz edytowac :");
+                int index;
+                index = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Podaj nowe imie:");
+                string name;
+                name = Console.ReadLine();
+
+                Console.WriteLine("Podaj nowe nazwisko:");
+                string surname;
+                surname = Console.ReadLine();
+
+
+                Console.WriteLine("Podaj nowy wiek:");
+                int age;
+                age = int.Parse(Console.ReadLine());
+
+
+            
         }
 
         // TO ZROBIMY NA ZAJĘCIACH
