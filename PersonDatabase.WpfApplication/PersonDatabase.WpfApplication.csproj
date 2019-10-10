@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PersonDatabase.Model\PersonDatabase.Model.csproj">
+      <Project>{d475cef2-2e9c-4f30-971a-bc28439def70}</Project>
+      <Name>PersonDatabase.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

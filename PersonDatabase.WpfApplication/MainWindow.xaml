@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PersonDatabase.WpfApplication"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Closing="Window_Closing">
     <Grid>
-        
+        <Label Content="Szukaj:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="66"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="708" Margin="76,10,0,0"/>
+        <DataGrid Name ="table" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="369" VerticalAlignment="Top" Width="774" Margin="10,41,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Imię" Binding="{Binding FirstName }"/>
+                <DataGridTextColumn Header="Nazwisko" Binding="{Binding LastName }"/>
+                <DataGridTextColumn Header="Wiek" Binding="{Binding Age }"/>
+
+            </DataGrid.Columns>
+            
+        </DataGrid>
+            
+    
     </Grid>
 </Window>

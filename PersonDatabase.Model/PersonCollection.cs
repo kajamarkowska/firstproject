@@ -19,6 +19,20 @@ namespace PersonDatabase.Model
 
         }
 
+        public List<Person> Persons
+        {
+            get
+            {
+                return persons;
+
+            }
+            set
+            {
+                persons = value;
+
+            }
+
+        }
         // konstruktor z parametrem pozwalającym określić nazwę pliku, z którego mają zostać
         // wczytane osoby i dodane do kolekcji
         public PersonCollection(string fileName)

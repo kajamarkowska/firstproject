@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PersonDatabase.Model;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace PersonDatabase.WpfApplication
 {
@@ -20,9 +8,21 @@ namespace PersonDatabase.WpfApplication
     /// </summary>
     public partial class MainWindow : Window
     {
+        private PersonCollection persons;
+
+
+
         public MainWindow()
         {
             InitializeComponent();
+            persons = new PersonCollection("persons.txt");
+            table.ItemsSource = persons.Persons;
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            persons.Save("persons.txt");
+
         }
     }
 }
