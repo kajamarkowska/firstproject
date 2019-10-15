@@ -2,6 +2,7 @@
 using System;
 using System.IO;
 
+
 namespace ConsoleApp22
 {
     public class Program
@@ -47,26 +48,7 @@ namespace ConsoleApp22
                         Console.WriteLine("Wybrano nieprawidłową opcję");
                         break;
 
-                       /* Console.WriteLine("Podaj imie:");
-                        string name;
-                        name = Console.ReadLine();
-
-                        Console.WriteLine("Podaj nazwisko:");
-                        string surname;
-                        surname = Console.ReadLine();
-
-
-                        Console.WriteLine("Podaj wiek:");
-                        string age;
-                        age = Console.ReadLine();
-
-                        if n > 47;
-                        {
-                            //i jak tutaj przeniesc do person??
-
-                            AddPersonMenuItem;
-                        }
-                        */
+                     
                 }
             }
             persons.Save("persons.txt");
@@ -108,13 +90,22 @@ namespace ConsoleApp22
             string surname;
             surname = Console.ReadLine();
 
-
             Console.WriteLine("Podaj wiek:");
             int age;
             age = int.Parse(Console.ReadLine());
 
-            Person person = new Person(name, surname, age);
+            Console.WriteLine("Podaj płeć:");
+            char sex;
+            sex = char.Parse(Console.ReadLine());
+
+            Console.WriteLine("Podaj wzrost:");
+            int height;
+            height = int.Parse(Console.ReadLine());
+
+            Person person = new Person(name, surname, age, sex, height);
             persons.Add(person);
+
+           
 
 
         }
@@ -145,6 +136,18 @@ namespace ConsoleApp22
                 Console.WriteLine("Podaj nowy wiek:");
                 
                 person.Age = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Podaj nowa płeć:");
+
+                person.Sex = char.Parse(Console.ReadLine());
+
+                Console.WriteLine("Podaj nowy wzrost:");
+
+                person.Height = int.Parse(Console.ReadLine());
+
+
+
+
 
             }
 

@@ -42,14 +42,16 @@ namespace PersonDatabase.Model
             {
                 while (!reader.EndOfStream)
                 {
-                    string firstname, lastname;
-                    int age;
+                    string firstname, lastname, height;
+                    int age; char sex;
 
                     firstname = reader.ReadLine();
                     lastname = reader.ReadLine();
                     age = int.Parse(reader.ReadLine());
+                    sex = char.Parse(reader.ReadLine());
+                    height = reader.ReadLine();
 
-                    Person person = new Person(firstname, lastname, age);
+                    Person person = new Person(firstname, lastname, age, sex , height);
                     persons.Add(person);
 
                     
@@ -104,6 +106,8 @@ namespace PersonDatabase.Model
                     writer.WriteLine(person.FirstName);
                     writer.WriteLine(person.LastName);
                     writer.WriteLine(person.Age);
+                    writer.WriteLine(person.Sex);
+                    writer.WriteLine(person.Height);
                 }
 
             }
