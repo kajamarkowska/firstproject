@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SQLite;
 using System.IO;
 using System.Text;
 
@@ -38,26 +39,28 @@ namespace PersonDatabase.Model
         public PersonCollection(string fileName)
         {
             persons = new List<Person>();
-            using (StreamReader reader = new StreamReader(fileName))
+
+            using (SQLiteConnection connect = new SQLiteConnection("Data Source=" + fileName)) 
             {
-                while (!reader.EndOfStream)
+                connect.Open();
+                using(SQLiteCommand command = connect.CreateCommand())
                 {
-                    string firstname, lastname, height;
-                    int age; char sex;
+                    command.CommandText = "select * from person";
+                    SQLiteDataReader reader = command.ExecuteReader();
 
-                    firstname = reader.ReadLine();
-                    lastname = reader.ReadLine();
-                    age = int.Parse(reader.ReadLine());
-                    sex = char.Parse(reader.ReadLine());
-                    height = reader.ReadLine();
+                    while( reader.Read())
+                    {
+                        Person person = new Person();
 
-                    Person person = new Person(firstname, lastname, age, sex , height);
-                    persons.Add(person);
+                        person.Id = Convert.ToInt32( reader["Id"]);
+                        person.FirstName = Convert.ToString(reader["FirstName"]);
 
-                    
+                        //todo reszte wlasciwosci wypelnic
+
+                        persons.Add(person);
+                    }
 
                 }
-
 
             }
 

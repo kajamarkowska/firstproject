@@ -1,0 +1,17 @@
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\bin\Debug\PersonDatabase.Model.Tests.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\bin\Debug\PersonDatabase.Model.Tests.pdb
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\obj\Debug\PersonDatabase.Model.Tests.csprojAssemblyReference.cache
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\obj\Debug\PersonDatabase.Model.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\obj\Debug\PersonDatabase.Model.Tests.csproj.CopyComplete
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\obj\Debug\PersonDatabase.Model.Tests.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.Model.Tests\obj\Debug\PersonDatabase.Model.Tests.pdb

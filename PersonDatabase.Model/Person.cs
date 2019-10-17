@@ -3,7 +3,7 @@
     // publiczna klasa reprezentująca osobę
     public class Person
     {
-        private string height;
+       
 
         // imię 
         public string FirstName { get; set; }
@@ -12,12 +12,20 @@
         // wiek
         public int Age { get; set; }
 
-        public  char Sex { get; set; }
+        public  string Sex { get; set; }
 
         public int Height { get; set; }
 
+        public int Id { get; set; }
+
+        public Person()
+        {
+            
+
+        }
+
         // konstruktor klasy Person
-        public Person(string firstName, string lastName, int age, char sex, int height )
+        public Person(string firstName, string lastName, int age, string sex, int height )
         {
             // przypisanie parametru firstName do właściwości FirstName
             FirstName = firstName;
@@ -31,14 +39,8 @@
             Height = height;
         }
 
-        public Person(string firstname, string lastname, int age, char sex, string height)
-        {
-            FirstName = firstname;
-            LastName = lastname;
-            Age = age;
-            Sex = sex;
-            this.height = height;
-        }
+        
+       
 
         // co znaczy to ponizej?
         // przesłonięcie (nadpisanie) metody ToString (pochodzącej z klasy System.Object)
@@ -48,5 +50,7 @@
             // sformatowane w postaci czytelnego tekstu
             return $"{FirstName} {LastName} {Sex} {Height} => {Age} lat(a)";
         }
+
+
     }
 }

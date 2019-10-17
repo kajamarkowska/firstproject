@@ -95,8 +95,8 @@ namespace ConsoleApp22
             age = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Podaj płeć:");
-            char sex;
-            sex = char.Parse(Console.ReadLine());
+            string sex;
+            sex = Console.ReadLine();
 
             Console.WriteLine("Podaj wzrost:");
             int height;
@@ -139,7 +139,7 @@ namespace ConsoleApp22
 
                 Console.WriteLine("Podaj nowa płeć:");
 
-                person.Sex = char.Parse(Console.ReadLine());
+                person.Sex = Console.ReadLine();
 
                 Console.WriteLine("Podaj nowy wzrost:");
 

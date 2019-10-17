@@ -15,13 +15,23 @@ namespace PersonDatabase.WpfApplication
         public MainWindow()
         {
             InitializeComponent();
-            persons = new PersonCollection("persons.txt");
+            persons = new PersonCollection("baza.db");
             table.ItemsSource = persons.Persons;
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             persons.Save("persons.txt");
+
+        }
+
+        private void TextBox_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_1(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
 
         }
     }

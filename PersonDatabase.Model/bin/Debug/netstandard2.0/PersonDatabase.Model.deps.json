@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "cfe1dc2a80602aef150a12815387068463a61a0d"
+    "signature": "e4cbf80823a49aa7ab0e457a66fe7c6227c672d6"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,7 +9,8 @@
     ".NETStandard,Version=v2.0/": {
       "PersonDatabase.Model/1.0.0": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3"
+          "NETStandard.Library": "2.0.3",
+          "System.Data.SQLite": "1.0.111"
         },
         "runtime": {
           "PersonDatabase.Model.dll": {}
@@ -19,6 +20,19 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "System.Data.SQLite/1.0.111": {
+        "dependencies": {
+          "System.Data.SQLite.Core": "1.0.111"
+        }
+      },
+      "System.Data.SQLite.Core/1.0.111": {
+        "runtime": {
+          "lib/netstandard2.0/System.Data.SQLite.dll": {
+            "assemblyVersion": "1.0.111.0",
+            "fileVersion": "1.0.111.0"
+          }
         }
       }
     }
@@ -42,6 +56,20 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "System.Data.SQLite/1.0.111": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G6oK5KkT3gHfelwJ9MvBZc9mrO1x1gkpjNfPs1YBWGIQB5reJSmu5lraYC24VRRQpNBH7RIZqPQjqeBGr7CrNw==",
+      "path": "system.data.sqlite/1.0.111",
+      "hashPath": "system.data.sqlite.1.0.111.nupkg.sha512"
+    },
+    "System.Data.SQLite.Core/1.0.111": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D7Qo3JWUB6epymTVRNaAXt+Y+eh0juGjXb5q8SEp/LBdKJr6a224Mk0HCOemRsXfPIF8ULblPyCbVixUvfbpiw==",
+      "path": "system.data.sqlite.core/1.0.111",
+      "hashPath": "system.data.sqlite.core.1.0.111.nupkg.sha512"
     }
   }
 }

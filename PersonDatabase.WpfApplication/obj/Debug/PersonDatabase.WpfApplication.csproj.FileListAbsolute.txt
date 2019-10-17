@@ -16,3 +16,14 @@ C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\obj\Debu
 C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\PersonDatabase.Model.dll
 C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\PersonDatabase.Model.pdb
 C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\obj\Debug\PersonDatabase.WpfApplication.csproj.CopyComplete
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\Baza.db
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\EntityFramework.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\System.Data.SQLite.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\EntityFramework.xml
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\System.Data.SQLite.xml
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\obj\Debug\PersonDatabase.WpfApplication_Content.g.cs
