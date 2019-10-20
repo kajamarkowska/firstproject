@@ -20,7 +20,8 @@
             </DataGrid.Columns>
 
         </DataGrid>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="84,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="686" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox x:Name="textBox1_KeyUp" HorizontalAlignment="Left" Height="23" Margin="84,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" 
+                 KeyUp="textBox1_KeyUp" Width="686" TextChanged="TextBox_TextChanged_1"/>
 
 
     </Grid>

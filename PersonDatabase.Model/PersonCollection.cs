@@ -13,6 +13,7 @@ namespace PersonDatabase.Model
         // lista osób jako prywatne pole klasy PersonCollection
         private List<Person> persons;
 
+
         // konstruktor bez parametrów
         public PersonCollection()
         {
@@ -54,8 +55,12 @@ namespace PersonDatabase.Model
 
                         person.Id = Convert.ToInt32( reader["Id"]);
                         person.FirstName = Convert.ToString(reader["FirstName"]);
+                        person.LastName = Convert.ToString(reader["LastName"]);
+                        person.Age = Convert.ToInt32(reader["Age"]);
+                        person.Sex = Convert.ToString(reader["Sex"]);
+                        person.Height = Convert.ToInt32(reader["Height"]);
 
-                        //todo reszte wlasciwosci wypelnic
+
 
                         persons.Add(person);
                     }

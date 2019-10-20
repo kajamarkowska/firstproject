@@ -20,7 +20,12 @@
 
         public Person()
         {
-            
+             void textBox1_KeyUp(object sender, System.Windows.Input.KeyEventArgs e)
+            {
+                var filtered = _person.Where(Person => Person.Type.StartsWith(textBox1.Text));
+
+                dataGrid.ItemsSource = filtered;
+            }
 
         }
 
