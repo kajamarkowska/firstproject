@@ -99,5 +99,25 @@ namespace PersonDatabase.WpfApplication
           
 
         }
+
+        private void Button_Add(object sender, RoutedEventArgs e)
+        {
+            DialogWindow dialog = new DialogWindow();
+
+            if ((bool)dialog.ShowDialog())
+            {
+
+            }
+        }
+
+        private void Button_Delete(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Edit(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

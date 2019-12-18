@@ -41,3 +41,5 @@ C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debu
 C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\PdfSharp.Charting.xml
 C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\de\PdfSharp.resources.dll
 C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\obj\Debug\DialogWindow.g.cs
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\obj\Debug\DialogWindow.baml

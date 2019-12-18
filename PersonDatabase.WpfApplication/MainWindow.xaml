@@ -7,14 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Closing="Window_Closing" MinWidth="550">
     <Grid>
-       
-        <TabControl>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TabControl Grid.ColumnSpan="2">
             <TabItem Header="Baza danych">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
                         <RowDefinition Height="*"/>
-               
+
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -23,9 +28,14 @@
                         <Label Content="Szukaj:" />
                         <TextBox x:Name="textBox" MinWidth="730" Height="30"/>
                     </StackPanel>
-                        
-                    
-                    <DataGrid Name ="table" AutoGenerateColumns="False" Grid.Row="1" Grid.Column="0">
+                    <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0" Margin="0,5">
+                        <Button Content="Dodaj"  Margin="4,0" Click="Button_Add" Padding="10,0"/>
+                        <Button Content="Edytuj"  Margin="4,0" Height="20" VerticalAlignment="Top" Click="Button_Edit" Padding="10,0" />
+                        <Button Content="Usuń"  Margin="4,0" Height="20" VerticalAlignment="Top" Click="Button_Delete" Padding="10,0"/>
+                   
+                    </StackPanel>         
+
+                    <DataGrid Name ="table" AutoGenerateColumns="False" Grid.Row="2" Grid.Column="0">
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="Imię" Binding="{Binding FirstName }"/>
                             <DataGridTextColumn Header="Nazwisko" Binding="{Binding LastName }"/>
@@ -36,7 +46,7 @@
                         </DataGrid.Columns>
 
                     </DataGrid>
-                   
+
 
                 </Grid>
             </TabItem>
@@ -57,15 +67,15 @@
                     </StackPanel>
                     <Border Grid.Row="1" Grid.Column="0" BorderThickness="1" BorderBrush="Gray">
                         <WebBrowser Name ="browser"  Margin="5"  />
-                    </Border>           
+                    </Border>
                 </Grid>
             </TabItem>
 
         </TabControl>
 
-        
+
 
 
     </Grid>
-  
+
 </Window>
