@@ -5,24 +5,67 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PersonDatabase.WpfApplication"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Closing="Window_Closing">
+        Title="MainWindow" Height="450" Width="800" Closing="Window_Closing" MinWidth="550">
     <Grid>
-        <Label Content="Szukaj:" HorizontalAlignment="Left" Margin="18,10,0,0" VerticalAlignment="Top" Width="66"/>
+       
+        <TabControl>
+            <TabItem Header="Baza danych">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+               
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="0">
+                        <Label Content="Szukaj:" />
+                        <TextBox x:Name="textBox" MinWidth="730" Height="30"/>
+                    </StackPanel>
+                        
+                    
+                    <DataGrid Name ="table" AutoGenerateColumns="False" Grid.Row="1" Grid.Column="0">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Imię" Binding="{Binding FirstName }"/>
+                            <DataGridTextColumn Header="Nazwisko" Binding="{Binding LastName }"/>
+                            <DataGridTextColumn Header="Wiek" Binding="{Binding Age }"/>
+                            <DataGridTextColumn Header="Płeć" Binding="{Binding Sex }"/>
+                            <DataGridTextColumn Header="Wzrost" Binding="{Binding Height }"/>
 
-        <DataGrid Name ="table" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="369" VerticalAlignment="Top" Width="774" Margin="10,41,0,0">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Imię" Binding="{Binding FirstName }"/>
-                <DataGridTextColumn Header="Nazwisko" Binding="{Binding LastName }"/>
-                <DataGridTextColumn Header="Wiek" Binding="{Binding Age }"/>
-                <DataGridTextColumn Header="Płeć" Binding="{Binding Sex }"/>
-                <DataGridTextColumn Header="Wzrost" Binding="{Binding Height }"/>
+                        </DataGrid.Columns>
 
-            </DataGrid.Columns>
+                    </DataGrid>
+                   
 
-        </DataGrid>
-        <TextBox x:Name="textBox1_KeyUp" HorizontalAlignment="Left" Height="23" Margin="84,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" 
-                 KeyUp="textBox1_KeyUp" Width="686" TextChanged="TextBox_TextChanged_1"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Raporty">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="0" Margin="5">
+                        <ComboBox Name ="reportComboBox" Margin=" 0,0,10,0" MinWidth="500"/>
+                        <Button Content="Wykonaj"  Click="GenerateReportButtonClick" Padding="10,0"/>
+                        <Button Content="Konwertuj do PDF"  Padding="10,0" Click="ExportToPdfButtonClick"/>
+
+                    </StackPanel>
+                    <Border Grid.Row="1" Grid.Column="0" BorderThickness="1" BorderBrush="Gray">
+                        <WebBrowser Name ="browser"  Margin="5"  />
+                    </Border>           
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+
+        
 
 
     </Grid>
+  
 </Window>

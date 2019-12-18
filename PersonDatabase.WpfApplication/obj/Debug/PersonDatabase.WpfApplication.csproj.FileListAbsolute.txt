@@ -27,3 +27,17 @@ C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debu
 C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\System.Data.SQLite.xml
 C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\System.Data.SQLite.dll.config
 C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\obj\Debug\PersonDatabase.WpfApplication_Content.g.cs
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\Raporty\Raport1.sql
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\Raporty\Raport3.sql
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\Raporty\Raport2.sql
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\template.html
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\HtmlRenderer.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\HtmlRenderer.PdfSharp.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\PdfSharp.Charting.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\PdfSharp.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\HtmlRenderer.pdb
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\HtmlRenderer.PdfSharp.pdb
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\PdfSharp.xml
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\PdfSharp.Charting.xml
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\Kaja\source\repos\PersonDatabase\PersonDatabase.WpfApplication\bin\Debug\de\PdfSharp.Charting.resources.dll

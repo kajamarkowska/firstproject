@@ -9,5 +9,9 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("baza.db")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("raporty/raport3.sql")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("raporty/raport2.sql")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("raporty/raport1.sql")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("template.html")]
 
 
