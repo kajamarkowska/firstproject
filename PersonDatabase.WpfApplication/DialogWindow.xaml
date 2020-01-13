@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PersonDatabase.WpfApplication"
         mc:Ignorable="d"
-        Title="DialogWindow" Height="450" Width="350">
+        Title="DialogWindow" Height="400" Width="350">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -36,7 +36,7 @@
         <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0">
             <Button Content="Zapisz" Click="Button_Okey" />
             <Button Content="Anuluj" Click="Button_Cancel"/>
-            <Button Content="Edytuj" Click="Button_Edit"/>
+         
 
         </StackPanel>
 

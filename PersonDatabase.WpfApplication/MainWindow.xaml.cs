@@ -106,17 +106,56 @@ namespace PersonDatabase.WpfApplication
 
             if ((bool)dialog.ShowDialog())
             {
-
+                persons.Add(dialog.Person);
+                RefreshData();
             }
         }
 
         private void Button_Delete(object sender, RoutedEventArgs e)
         {
+            Person person = (Person)table.SelectedItem;
 
+            if (person!= null)
+            {
+                if (MessageBox.Show("Czy usunąć wybrane pole?", "Potwierdzenie", MessageBoxButton.YesNo)== MessageBoxResult.Yes)
+                {
+                    persons.Delete(person);
+                    RefreshData();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Zaznacz wiersz do usunięcia");
+            }
         }
 
         private void Button_Edit(object sender, RoutedEventArgs e)
         {
+            Person person = (Person)table.SelectedItem;
+
+            if (person != null)
+            {
+                DialogWindow dialog = new DialogWindow(person);
+                if ((bool)dialog.ShowDialog())
+                {
+                    persons.Edit(dialog.Person, table.SelectedIndex);
+                    int i = table.SelectedIndex;
+                    RefreshData();
+                    table.SelectedIndex = i;
+                }
+                
+            }
+            else
+            {
+                MessageBox.Show("Zaznacz wiersz do edycji");
+            }
+
+           
+        }
+        private void RefreshData()
+        {
+            table.ItemsSource = null;
+            table.ItemsSource = persons.Persons;
 
         }
     }

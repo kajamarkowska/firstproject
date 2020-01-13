@@ -1,16 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PersonDatabase.Model;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace PersonDatabase.WpfApplication
 {
@@ -19,14 +8,56 @@ namespace PersonDatabase.WpfApplication
     /// </summary>
     public partial class DialogWindow : Window
     {
+        
         public DialogWindow()
         {
             InitializeComponent();
+            
+        }
+        public Person Person
+        {
+            get
+            {
+                return new Person(firstNameTextBox.Text, lastNameTextBox.Text, int.Parse(ageTextBox.Text), sexTextBox.Text, int.Parse(heighTextBox.Text));
+            }
         }
 
+        public DialogWindow(Person person)
+        {
+            InitializeComponent();
+            firstNameTextBox.Text = person.FirstName;
+            lastNameTextBox.Text = person.LastName;
+            ageTextBox.Text = person.Age + "";
+            sexTextBox.Text = person.Sex;
+            heighTextBox.Text = person.Height + "";
+        }
         private void Button_Okey(object sender, RoutedEventArgs e)
         {
-            DialogResult = true;
+            int n;
+            bool isokey = true;
+            if(!int.TryParse(ageTextBox.Text,out n))
+            {
+                MessageBox.Show("Podano nieprawidłowy wiek");
+                isokey = false;
+
+            }
+           
+            if(!int.TryParse(heighTextBox.Text, out n))
+            {
+                MessageBox.Show("Podano nieprawidłowy wzrost");
+                isokey = false;
+            }
+
+            if (isokey)
+            {
+                DialogResult = true;
+
+            }
+
+            else
+            {
+                DialogResult = null;
+            }
         }
 
         private void Button_Cancel(object sender, RoutedEventArgs e)
@@ -34,11 +65,7 @@ namespace PersonDatabase.WpfApplication
             DialogResult = false;
         }
 
-        private void Button_Edit(object sender, RoutedEventArgs e)
-        {
-            DialogResult = true;
-            //to nie wiem
-        }
+      
 
 
     }

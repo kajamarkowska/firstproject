@@ -143,6 +143,10 @@
       <Project>{d475cef2-2e9c-4f30-971a-bc28439def70}</Project>
       <Name>PersonDatabase.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Theme-001\Theme_001.csproj">
+      <Project>{3e563956-7fd7-4320-b358-737fbeefb03c}</Project>
+      <Name>Theme_001</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Baza.db">

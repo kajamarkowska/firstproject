@@ -1,0 +1,6 @@
+C:\Users\Kaja\source\repos\PersonDatabase\ThemePack.Models\bin\Debug\ThemePack.Models.dll
+C:\Users\Kaja\source\repos\PersonDatabase\ThemePack.Models\bin\Debug\ThemePack.Models.pdb
+C:\Users\Kaja\source\repos\PersonDatabase\ThemePack.Models\obj\Debug\ThemePack.Models.csprojAssemblyReference.cache
+C:\Users\Kaja\source\repos\PersonDatabase\ThemePack.Models\obj\Debug\ThemePack.Models.csproj.CoreCompileInputs.cache
+C:\Users\Kaja\source\repos\PersonDatabase\ThemePack.Models\obj\Debug\ThemePack.Models.dll
+C:\Users\Kaja\source\repos\PersonDatabase\ThemePack.Models\obj\Debug\ThemePack.Models.pdb

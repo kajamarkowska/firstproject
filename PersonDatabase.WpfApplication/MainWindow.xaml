@@ -29,9 +29,9 @@
                         <TextBox x:Name="textBox" MinWidth="730" Height="30"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0" Margin="0,5">
-                        <Button Content="Dodaj"  Margin="4,0" Click="Button_Add" Padding="10,0"/>
-                        <Button Content="Edytuj"  Margin="4,0" Height="20" VerticalAlignment="Top" Click="Button_Edit" Padding="10,0" />
-                        <Button Content="Usuń"  Margin="4,0" Height="20" VerticalAlignment="Top" Click="Button_Delete" Padding="10,0"/>
+                        <Button Content="Dodaj"   Click="Button_Add" />
+                        <Button Content="Edytuj"    VerticalAlignment="Top" Click="Button_Edit"  />
+                        <Button Content="Usuń"    VerticalAlignment="Top" Click="Button_Delete" />
                    
                     </StackPanel>         
 
